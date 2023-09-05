@@ -12,3 +12,10 @@ refresh:
 	${psql_command} ${database_name} < ./ddl/create_appropriate_bodies.sql
 	${psql_command} ${database_name} < ./ddl/create_induction_periods.sql
 	${psql_command} ${database_name} < ./ddl/create_training_periods.sql
+	${psql_command} ${database_name} < ./dml/add_appropriate_bodies.sql
+	${psql_command} ${database_name} < ./dml/add_delivery_partners.sql
+	${psql_command} ${database_name} < ./dml/add_schools.sql
+	${psql_command} ${database_name} < ./dml/add_people.sql
+	${psql_command} ${database_name} < ./dml/add_tenureships.sql
+	${psql_command} ${database_name} < ./dml/add_mentorships.sql
+	${psql_command} ${database_name} < ./dml/add_induction_periods.sql
