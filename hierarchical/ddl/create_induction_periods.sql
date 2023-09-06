@@ -1,7 +1,7 @@
 create table induction_periods (
-  id serial primary key,
-  mentorship_id integer references mentorships(id),
-  appropriate_body_id integer references appropriate_bodies(id),
+  id varchar(16) primary key,
+  mentorship_id varchar(16) references mentorships(id),
+  appropriate_body_id varchar(16) references appropriate_bodies(id),
   started_on date not null,
   finished_on date null
 );

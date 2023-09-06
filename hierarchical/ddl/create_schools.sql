@@ -1,5 +1,5 @@
 create table schools (
-  id integer primary key, -- urn
+  id varchar(16) primary key,
   name varchar(256) not null
 );
 

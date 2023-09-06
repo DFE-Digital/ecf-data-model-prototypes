@@ -1,14 +1,14 @@
 create table training_periods (
-  id serial primary key,
-  mentorship_id integer references mentorships(id),
+  id varchar(16) primary key,
+  mentorship_id varchar(16) references mentorships(id),
   started_on date not null,
   finished_on date null,
 
   -- to be determined, should the lead provider and delivery partners
   -- be linked via an 'induction programme'? for now, let's skip it
   -- as I'm not sure it provides much value without cohorts
-  lead_provider_id integer references lead_providers(id),
-  delivery_partner_id integer references delivery_partners(id)
+  lead_provider_id varchar(16) references lead_providers(id),
+  delivery_partner_id varchar(16) references delivery_partners(id)
 );
 
 create index training_periods_lead_provider_id on training_periods(lead_provider_id);

@@ -1,5 +1,5 @@
-insert into delivery_partners(name) values
-  ('Delivery Partner A'),
-  ('Delivery Partner B'),
-  ('Delivery Partner C')
+insert into delivery_partners(id, name) values
+  ('DP-A', 'Delivery Partner A'),
+  ('DP-B', 'Delivery Partner B'),
+  ('DP-C', 'Delivery Partner C')
 ;

@@ -9,6 +9,7 @@ The same data will be expressed in each of the prototypes so queries can be dire
 ### Appropriate Bodies
 
 * Appropriate Body A
+  - was appointed to **ECT A** on **2023-11-16**
 * Appropriate Body B
 
 ### Delivery Partners
@@ -118,60 +119,60 @@ erDiagram
 ```mermaid
 erDiagram
     appropriate_bodies {
-        integer id PK
+        character_varying id PK
         character_varying name
     }
 
     delivery_partners {
-        integer id PK
+        character_varying id PK
         character_varying name
     }
 
     induction_periods {
-        integer appropriate_body_id FK
+        character_varying appropriate_body_id FK
         date finished_on
-        integer id PK
-        integer mentorship_id FK
+        character_varying id PK
+        character_varying mentorship_id FK
         date started_on
     }
 
     lead_providers {
-        integer id PK
+        character_varying id PK
         character_varying name
     }
 
     mentorships {
         date finished_on
-        integer id PK
-        integer mentee_id FK
-        integer mentor_id FK
+        character_varying id PK
+        character_varying mentee_id FK
+        character_varying mentor_id FK
         date started_on
     }
 
     people {
-        integer id PK
+        character_varying id PK
         character_varying name
     }
 
     schools {
-        integer id PK
+        character_varying id PK
         character_varying name
     }
 
     tenureships {
         date finished_on
-        integer id PK
-        integer person_id FK
-        integer school_id FK
+        character_varying id PK
+        character_varying person_id FK
+        character_varying school_id FK
         date started_on
     }
 
     training_periods {
-        integer delivery_partner_id FK
+        character_varying delivery_partner_id FK
         date finished_on
-        integer id PK
-        integer lead_provider_id FK
-        integer mentorship_id FK
+        character_varying id PK
+        character_varying lead_provider_id FK
+        character_varying mentorship_id FK
         date started_on
     }
 

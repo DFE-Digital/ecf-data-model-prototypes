@@ -1,5 +1,5 @@
 create table people (
-  id serial primary key,
+  id varchar(16) primary key,
   name varchar(128) not null
 );
 

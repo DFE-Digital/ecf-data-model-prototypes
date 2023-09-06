@@ -1,5 +1,5 @@
 create table appropriate_bodies (
-  id serial primary key,
+  id varchar(16) primary key,
   name varchar(64) not null
 );
 

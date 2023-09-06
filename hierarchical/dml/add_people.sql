@@ -1,8 +1,8 @@
-insert into people(name) values
-  ('ECT A'),
-  ('ECT B'),
-  ('ECT C'),
-  ('ECT D'),
-  ('Mentor A'),
-  ('Mentor B')
+insert into people(id, name) values
+  ('ECT-A', 'ECT A'),
+  ('ECT-B', 'ECT B'),
+  ('ECT-C', 'ECT C'),
+  ('ECT-D', 'ECT D'),
+  ('MENTOR-A', 'Mentor A'),
+  ('MENTOR-B', 'Mentor B')
 ;

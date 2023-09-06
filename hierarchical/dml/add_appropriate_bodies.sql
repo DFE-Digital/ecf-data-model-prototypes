@@ -1,4 +1,4 @@
-insert into appropriate_bodies(name) values
-  ('Appropriate Body A'),
-  ('Appropriate Body B')
+insert into appropriate_bodies(id, name) values
+  ('AB-A', 'Appropriate Body A'),
+  ('AB-B', 'Appropriate Body B')
 ;

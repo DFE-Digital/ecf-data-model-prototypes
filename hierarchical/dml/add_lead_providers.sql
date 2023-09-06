@@ -1,5 +1,5 @@
-insert into lead_providers(name) values
-  ('Lead Provider A'),
-  ('Lead Provider B'),
-  ('Lead Provider C')
+insert into lead_providers(id, name) values
+  ('LP-A', 'Lead Provider A'),
+  ('LP-B', 'Lead Provider B'),
+  ('LP-C', 'Lead Provider C')
 ;
