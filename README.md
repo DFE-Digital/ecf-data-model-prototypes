@@ -36,6 +36,7 @@ The same data will be expressed in each of the prototypes so queries can be dire
 * Appropriate Body A
   - was appointed to **ECT A** on **2023-11-16**
 * Appropriate Body B
+  - was appointed to **ECT C** on **2022-10-24**
 
 ### Delivery Partners
 
@@ -64,12 +65,17 @@ The same data will be expressed in each of the prototypes so queries can be dire
   - at **School A** from **2020-02-24** until present
   - being mentored by **Mentor A** since **2022-10-24**
 * ECT C
+  - at **School A** from **2018-04-30** until **2019-07-12**
+  - at **School B** from **2021-07-13** until present
+  - has an open induction period with **Mentor B** and **Appropriate Body B** since **2022-10-24**
 * ECT D
 * Mentor A
   - at **School A** from **2012-11-24** until present
   - mentoring **ECT A** since **2022-11-13**
   - mentoring **ECT B** since **2020-02-24**
 * Mentor B
+  - at **School B** from **2020-05-01** until present
+  - mentoring **ETC C** since **2022-10-24**
 
 ## Prototypes
 
