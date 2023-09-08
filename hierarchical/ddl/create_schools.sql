@@ -1,6 +1,3 @@
 create table schools (
-  id varchar(64) primary key,
-  name varchar(256) not null
+  id varchar(64) primary key
 );
-
-create index school_name on schools(name);
