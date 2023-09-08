@@ -1,5 +1,5 @@
 create table appropriate_bodies (
-  id varchar(16) primary key,
+  id varchar(64) primary key,
   name varchar(64) not null
 );
 

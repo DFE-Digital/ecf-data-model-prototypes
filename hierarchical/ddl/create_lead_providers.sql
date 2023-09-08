@@ -1,5 +1,5 @@
 create table lead_providers (
-  id varchar(16) primary key,
+  id varchar(64) primary key,
   name varchar(64) not null
 );
 
