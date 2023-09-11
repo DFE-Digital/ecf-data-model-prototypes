@@ -34,25 +34,32 @@ The same data will be expressed in each of the prototypes so queries can be dire
 ### Appropriate Bodies
 
 * Northern Teaching School Hub
+  - appointed to **Edward** from **Grange Hill** on **2022-09-12**
 * Southern Induction Panel
 
 ### Delivery Partners
 
 * Excellence Trust
+  - **Edward** was assigned on **2022-09-12**
 * Greatest Education Institute
 * Ultimate Academy Group
 
 ### Lead Providers
 
 * AI
+  - **Edward** was assigned on **2022-09-12**
 * BPN
 * TF
 
 ### Schools
 
 * Springfield Elementary
+  - Michael joined on **2012-11-24** and left on **2022-04-08**
 * Grange Hill
-* Hogwarts
+  - Edward joined on **2022-06-04**
+  - Michael joined on **2022-05-20**
+* Sunnydale High
+* Bayside High
 
 ### People
 
@@ -63,6 +70,8 @@ The same data will be expressed in each of the prototypes so queries can be dire
 * Edward
   - has been at at **Grange Hill** since **2022-06-04**
   - has been mentored by **Michael** since **2022-09-12**
+  - was assigned to lead provider **AI** on **2022-09-12**
+  - was assigned to delivery partner **Excellence Trust** on **2022-09-12**
 * Elsa
 * Erica
 
