@@ -35,6 +35,7 @@ The same data will be expressed in each of the prototypes so queries can be dire
 
 * Northern Teaching School Hub
   - appointed to **Edward** from **Grange Hill** on **2022-09-12**
+  - appointed to **Erica** from **Grange Hill** on **2022-09-12**
 * Southern Induction Panel
 
 ### Delivery Partners
@@ -42,6 +43,7 @@ The same data will be expressed in each of the prototypes so queries can be dire
 * Excellence Trust
   - **Edward** was assigned on **2022-09-12**
 * Greatest Education Institute
+  - **Erica** was assigned on **2022-09-05**
 * Ultimate Academy Group
 
 ### Lead Providers
@@ -50,15 +52,18 @@ The same data will be expressed in each of the prototypes so queries can be dire
   - **Edward** was assigned on **2022-09-12**
 * BPN
 * TF
+  - **Erica** was assigned on **2022-09-05**
 
 ### Schools
 
 * Springfield Elementary
-  - Michael joined on **2012-11-24** and left on **2022-04-08**
+  - **Michael** joined on **2012-11-24** and left on **2022-04-08**
 * Grange Hill
-  - Edward joined on **2022-06-04**
-  - Michael joined on **2022-05-20**
+  - **Edward** joined on **2022-06-04**
+  - **Michael** joined on **2022-05-20**
 * Sunnydale High
+  - **Erica** joined on **2022-03-01**
+  - **Mary** joined on **2017-12-05**
 * Bayside High
 
 ### People
@@ -74,10 +79,14 @@ The same data will be expressed in each of the prototypes so queries can be dire
   - was assigned to delivery partner **Excellence Trust** on **2022-09-12**
 * Elsa
 * Erica
+  - has been at **Sunnydale High** since **2022-03-01**
+  - has been mentored by **Mary** since **2022-09-05**
 
 #### Mentors
 
 * Mary
+  - has been at **Sunnydale High** since **2017-12-05**
+  - has been mentoring **Erica** since **2022-09-05**
 * Michael
   - was at **Springfield Elementary** from **2012-11-24** until **2022-04-08**
   - has been at at **Grange Hill** since **2022-05-20**
@@ -156,12 +165,10 @@ erDiagram
 erDiagram
     appropriate_bodies {
         character_varying id PK
-        character_varying name
     }
 
     delivery_partners {
         character_varying id PK
-        character_varying name
     }
 
     induction_periods {
@@ -174,7 +181,6 @@ erDiagram
 
     lead_providers {
         character_varying id PK
-        character_varying name
     }
 
     mentorships {
@@ -187,12 +193,10 @@ erDiagram
 
     people {
         character_varying id PK
-        character_varying name
     }
 
     schools {
         character_varying id PK
-        character_varying name
     }
 
     tenureships {
