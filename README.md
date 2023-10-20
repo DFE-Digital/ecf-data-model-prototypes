@@ -33,56 +33,70 @@ The same data will be expressed in each of the prototypes so queries can be dire
 
 ### Appropriate Bodies
 
-* Appropriate Body A
-  - was appointed to **ECT A** on **2023-11-16**
-* Appropriate Body B
-  - was appointed to **ECT C** on **2022-10-24**
+* Northern Teaching School Hub
+  - appointed to **Edward** from **Grange Hill** on **2022-09-12**
+  - appointed to **Erica** from **Grange Hill** on **2022-09-12**
+* Southern Induction Panel
 
 ### Delivery Partners
 
-* Delivery Partner A
-* Delivery Partner B
-* Delivery Partner C
+* Excellence Trust
+  - **Edward** was assigned on **2022-09-12**
+* Greatest Education Institute
+  - **Erica** was assigned on **2022-09-05**
+* Ultimate Academy Group
 
 ### Lead Providers
 
-* Lead Provider A
-* Lead Provider B
+* AI
+  - **Edward** was assigned on **2022-09-12**
+* BPN
+* TF
+  - **Erica** was assigned on **2022-09-05**
 
 ### Schools
 
-* School A
-* School B
-* School C
+* Springfield Elementary
+  - **Michael** joined on **2012-11-24** and left on **2022-04-08**
+* Grange Hill
+  - **Edward** joined on **2022-06-04**
+  - **Michael** joined on **2022-05-20**
+* Sunnydale High
+  - **Erica** joined on **2022-03-01**
+  - **Mary** joined on **2017-12-05**
+* Bayside High
 
 ### People
 
-* ECT A
-  - at **School A** from **2022-09-11** until present
-  - being mentored by **Mentor A** since **2022-11-13**
-  - has an open induction period with **Mentor A** and **Appropriate Body A** since **2023-11-16**
-* ECT B
-  - at **School A** from **2020-02-24** until present
-  - being mentored by **Mentor A** since **2022-10-24**
-* ECT C
-  - at **School A** from **2018-04-30** until **2019-07-12**
-  - at **School B** from **2021-07-13** until present
-  - has an open induction period with **Mentor B** and **Appropriate Body B** since **2022-10-24**
-* ECT D
-* Mentor A
-  - at **School A** from **2012-11-24** until present
-  - mentoring **ECT A** since **2022-11-13**
-  - mentoring **ECT B** since **2020-02-24**
-* Mentor B
-  - at **School B** from **2020-05-01** until present
-  - mentoring **ETC C** since **2022-10-24**
+#### ECTs
+
+* Ebony
+  - has been at at **Springfield Elementary** since **2021-07-09**
+* Edward
+  - has been at at **Grange Hill** since **2022-06-04**
+  - has been mentored by **Michael** since **2022-09-12**
+  - was assigned to lead provider **AI** on **2022-09-12**
+  - was assigned to delivery partner **Excellence Trust** on **2022-09-12**
+* Elsa
+* Erica
+  - has been at **Sunnydale High** since **2022-03-01**
+  - has been mentored by **Mary** since **2022-09-05**
+
+#### Mentors
+
+* Mary
+  - has been at **Sunnydale High** since **2017-12-05**
+  - has been mentoring **Erica** since **2022-09-05**
+* Michael
+  - was at **Springfield Elementary** from **2012-11-24** until **2022-04-08**
+  - has been at at **Grange Hill** since **2022-05-20**
+  - has been mentoring **Edward** since **2022-09-12**
 
 ## Prototypes
 
 ### Flat
 
 ```mermaid
-
 erDiagram
     appropriate_bodies {
         integer id PK
@@ -151,12 +165,10 @@ erDiagram
 erDiagram
     appropriate_bodies {
         character_varying id PK
-        character_varying name
     }
 
     delivery_partners {
         character_varying id PK
-        character_varying name
     }
 
     induction_periods {
@@ -169,7 +181,6 @@ erDiagram
 
     lead_providers {
         character_varying id PK
-        character_varying name
     }
 
     mentorships {
@@ -182,12 +193,10 @@ erDiagram
 
     people {
         character_varying id PK
-        character_varying name
     }
 
     schools {
         character_varying id PK
-        character_varying name
     }
 
     tenureships {

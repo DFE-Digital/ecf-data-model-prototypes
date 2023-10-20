@@ -1,7 +1,7 @@
 create table tenureships (
-  id varchar(16) primary key,
-  person_id varchar(16) references people(id) not null,
-  school_id varchar(16) references schools(id) not null,
+  id varchar(64) primary key,
+  person_id varchar(64) references people(id) not null,
+  school_id varchar(64) references schools(id) not null,
   started_on date not null,
   finished_on date null
 );

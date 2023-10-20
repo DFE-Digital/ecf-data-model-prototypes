@@ -1,6 +1,3 @@
 create table appropriate_bodies (
-  id varchar(16) primary key,
-  name varchar(64) not null
+  id varchar(64) primary key
 );
-
-create index appropriate_body_name on appropriate_bodies(name);
